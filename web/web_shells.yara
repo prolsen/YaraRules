@@ -128,7 +128,6 @@ strings:
 	$s80 = "zero.cnbct.org"
 	$s81 = "Aventis KlasVayv"
 	$s82 = "KlasVayv" nocase
-	$s82 = "Kodlama by BLaSTER"
 	$s83 = "TurkGuvenligi"
 	$s84 = "BLaSTER"
 	$s85 = "lama's'hell"
@@ -163,6 +162,7 @@ strings:
 	$s114 = "zyklon"
 	$s115 = "lovealihack"
 	$s116 = "alihack"
+	$s117 = "Kodlama by BLaSTER"
 condition:
 	not uint16(0) == 0x5A4D and any of ($s*)
 }
